@@ -1,0 +1,973 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0040E022523BA2A7BF0609038A353278 /* CouponFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488876BE3A0A4A505ACE039E2AE3BB89 /* CouponFirstCell.swift */; };
+		057E67BE0ECFBF3406DE3BA60C20E73B /* Pods-UBCoupon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B944A6D1D84A70B8E71F2687BA1B18 /* Pods-UBCoupon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A38E23082EE4B04F9A22DBEFB624878 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4372C8FD54B369C4363D4A3F714173C0 /* edit.png */; };
+		0E96E203FDD6FFC188FDFC43BABB872A /* Pods-UBCoupon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE66BB68D173CB7E65EEF6C2E620C8A /* Pods-UBCoupon_Example-dummy.m */; };
+		163E6273D1ACC2A9C61A43F100EC0103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		24611ED619D3AA0F1A606E0DDCEEA62F /* Pods-UBCoupon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3E96E02EF708A2013196080AF52CF6 /* Pods-UBCoupon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F807AB08E994D50E434037C80F74597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		529F47D26DC0568E1CD91250BF71714F /* UBCoupon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D06CBFFC69F9107173415BD3DE40992 /* UBCoupon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		926A6BBCF9292681D995D274BB3421CD /* InviteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84A606E54A11535230DA8199B85E30 /* InviteCell.swift */; };
+		A9D9B8B866534E1D9C2952B041A7322F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953D859481FC254C86D5312F7095E0C /* Extensions.swift */; };
+		B1FE27C550D24EDA99BECA2D18E91E44 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF57DD0FCCDB39161B23352100FA7F /* CouponViewController.swift */; };
+		B85EC3EEC8A23197B53DA50C665A2001 /* UBCoupon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 861E1410497D37DE8398A04B32C79BF7 /* UBCoupon-dummy.m */; };
+		C9AC859C36E41B38ED09097FE19B60A5 /* InviteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CED1CA9041272DB80F8D4F3E57891 /* InviteViewModel.swift */; };
+		D238FF1BC6ABA250005296F7B0BA0886 /* InvitesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE956E5FCF1B356EE843868E2A216C5 /* InvitesSettings.swift */; };
+		D76784AA543354B23669D3E9267DAA85 /* CouponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73A8EBC96517F18EF1B222803BAC70 /* CouponView.swift */; };
+		E1CA0425A66ECBA335E48FFE59828693 /* Pods-UBCoupon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B58814F0E5958450BC748A18B77367 /* Pods-UBCoupon_Tests-dummy.m */; };
+		EF6334A96803D5226D23DCA7FAF07D7D /* CouponSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E7EAC6B5940E9CC0F616F93EE39A64 /* CouponSettings.swift */; };
+		F00878DF3A27BBAB872FBB1337D7FADD /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A7B46C7EFB4E2A0F0EAE6B92EFF0F /* Strings.swift */; };
+		FFDC7F24252051533C8011D826AC2596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FB99C7674C9FB9C208473F6659A460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A95184D0962D4B216E5880407FF9BD;
+			remoteInfo = UBCoupon;
+		};
+		A6D8EA4265C0FC51D647876A7264878A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19A382DD6BBA000613F87188DDD63EA;
+			remoteInfo = "UBCoupon-UBCoupon";
+		};
+		AC52AAAA85AC763117D4895CBF5DB0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D561CB13CE4AA76ABFFD2AB7A9C322;
+			remoteInfo = "Pods-UBCoupon_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03067D1A1652BAB10A1BC34BB2C22323 /* Pods-UBCoupon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBCoupon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		03C3585137407627B1290E0D8148FB2C /* UBCoupon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UBCoupon.modulemap; sourceTree = "<group>"; };
+		07186F942E7CEFED8F10F44AE02FB6EC /* Pods_UBCoupon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UBCoupon_Example.framework; path = "Pods-UBCoupon_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB78F64CA18C5FC9FBBDFD2451AFFD0 /* Pods-UBCoupon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBCoupon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		139D8EA12A29910735430754C45A4C15 /* Pods-UBCoupon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBCoupon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		14B58814F0E5958450BC748A18B77367 /* Pods-UBCoupon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBCoupon_Tests-dummy.m"; sourceTree = "<group>"; };
+		1F59D2A9FEA9A179BBC99771A99554BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2953D859481FC254C86D5312F7095E0C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2B217C82ECFED63C8BC574ABA798525C /* Pods-UBCoupon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UBCoupon_Example-resources.sh"; sourceTree = "<group>"; };
+		2B9EDB813464DBE65EAE98CF0D4124C9 /* Pods-UBCoupon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBCoupon_Tests.modulemap"; sourceTree = "<group>"; };
+		2CE956E5FCF1B356EE843868E2A216C5 /* InvitesSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InvitesSettings.swift; sourceTree = "<group>"; };
+		2D5BD4697882EF48B66170A52CB08D04 /* Pods-UBCoupon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBCoupon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2E59CF79E03D510ED068F42CD9A02840 /* Pods-UBCoupon_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBCoupon_Example-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AE66BB68D173CB7E65EEF6C2E620C8A /* Pods-UBCoupon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBCoupon_Example-dummy.m"; sourceTree = "<group>"; };
+		4372C8FD54B369C4363D4A3F714173C0 /* edit.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = edit.png; path = UBCoupon/Assets/edit.png; sourceTree = "<group>"; };
+		487934FF90AC622D62994FB53C0CEAC8 /* Pods-UBCoupon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBCoupon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		488876BE3A0A4A505ACE039E2AE3BB89 /* CouponFirstCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponFirstCell.swift; sourceTree = "<group>"; };
+		48E7EAC6B5940E9CC0F616F93EE39A64 /* CouponSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponSettings.swift; sourceTree = "<group>"; };
+		55EB109482CCB99927C22D9C7CBD348D /* UBCoupon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UBCoupon.xcconfig; sourceTree = "<group>"; };
+		5A73A8EBC96517F18EF1B222803BAC70 /* CouponView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponView.swift; sourceTree = "<group>"; };
+		5E8995F79AD0CFAD0102D038F4A19199 /* ResourceBundle-UBCoupon-UBCoupon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UBCoupon-UBCoupon-Info.plist"; sourceTree = "<group>"; };
+		63FF57DD0FCCDB39161B23352100FA7F /* CouponViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		69B8A8F0916052E596196C6E50660EF9 /* Pods-UBCoupon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBCoupon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74B24D2E153FB5F3B38C93EF4A55C2B7 /* UBCoupon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UBCoupon.bundle; path = "UBCoupon-UBCoupon.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC6963B3D86313B8A1684BC22A5DDFF /* UBCoupon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UBCoupon-Info.plist"; sourceTree = "<group>"; };
+		80B944A6D1D84A70B8E71F2687BA1B18 /* Pods-UBCoupon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBCoupon_Tests-umbrella.h"; sourceTree = "<group>"; };
+		861E1410497D37DE8398A04B32C79BF7 /* UBCoupon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UBCoupon-dummy.m"; sourceTree = "<group>"; };
+		8A8A7B46C7EFB4E2A0F0EAE6B92EFF0F /* Strings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		8D06CBFFC69F9107173415BD3DE40992 /* UBCoupon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBCoupon-umbrella.h"; sourceTree = "<group>"; };
+		9203973D83B7722F18085813785D7C6A /* Pods-UBCoupon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBCoupon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98D08E5B7781F7A5484FFDE4E0B21C46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9C84A606E54A11535230DA8199B85E30 /* InviteCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InviteCell.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBDF733A7490B61F90AFD40A1C272AC /* Pods_UBCoupon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UBCoupon_Tests.framework; path = "Pods-UBCoupon_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30CED1CA9041272DB80F8D4F3E57891 /* InviteViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InviteViewModel.swift; sourceTree = "<group>"; };
+		B3C038506389A6F9937081B565F41D81 /* Pods-UBCoupon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBCoupon_Example.modulemap"; sourceTree = "<group>"; };
+		C645AAB85ECBE91CF34B69E674255457 /* UBCoupon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBCoupon-prefix.pch"; sourceTree = "<group>"; };
+		CA3E96E02EF708A2013196080AF52CF6 /* Pods-UBCoupon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBCoupon_Example-umbrella.h"; sourceTree = "<group>"; };
+		CD9768B2C834EE5C77EE5737980338EF /* Pods-UBCoupon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBCoupon_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D7B20E3B3937616343A6117BC345FD7F /* UBCoupon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UBCoupon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E20E99783E4326F1F4C44C0E881DC596 /* Pods-UBCoupon_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBCoupon_Tests-Info.plist"; sourceTree = "<group>"; };
+		EC88F948EE57CF56ED16F08D4DDA364B /* UBCoupon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UBCoupon.framework; path = UBCoupon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D3B6D3C4933858B06A56583521ACAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F807AB08E994D50E434037C80F74597 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91483B76DC9A8523F5F4A74CEA93935F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDC7F24252051533C8011D826AC2596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B014D7B3B32D058172C5CB7BE14294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163E6273D1ACC2A9C61A43F100EC0103 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DAE0E2D729247E26368CB238E74D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F801ED47A1CFF569FDD6B722C93F591 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD131A15BE9960D841E0E2953B0B90 /* UBCoupon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		12130BBE87FFF0806B3CE82FBB1AC9D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4372C8FD54B369C4363D4A3F714173C0 /* edit.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1510E1B50C29FE503940B9AAF4BBA2AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07186F942E7CEFED8F10F44AE02FB6EC /* Pods_UBCoupon_Example.framework */,
+				9EBDF733A7490B61F90AFD40A1C272AC /* Pods_UBCoupon_Tests.framework */,
+				74B24D2E153FB5F3B38C93EF4A55C2B7 /* UBCoupon.bundle */,
+				EC88F948EE57CF56ED16F08D4DDA364B /* UBCoupon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29D8CE3DEECB5FDBF67B9D6FA6D95D22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E8995F79AD0CFAD0102D038F4A19199 /* ResourceBundle-UBCoupon-UBCoupon-Info.plist */,
+				03C3585137407627B1290E0D8148FB2C /* UBCoupon.modulemap */,
+				55EB109482CCB99927C22D9C7CBD348D /* UBCoupon.xcconfig */,
+				861E1410497D37DE8398A04B32C79BF7 /* UBCoupon-dummy.m */,
+				7DC6963B3D86313B8A1684BC22A5DDFF /* UBCoupon-Info.plist */,
+				C645AAB85ECBE91CF34B69E674255457 /* UBCoupon-prefix.pch */,
+				8D06CBFFC69F9107173415BD3DE40992 /* UBCoupon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UBCoupon";
+			sourceTree = "<group>";
+		};
+		390EA1044C83EBA3EDE88C5B8FCF1EF4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				48E7EAC6B5940E9CC0F616F93EE39A64 /* CouponSettings.swift */,
+				2CE956E5FCF1B356EE843868E2A216C5 /* InvitesSettings.swift */,
+			);
+			name = Settings;
+			path = UBCoupon/Classes/Settings;
+			sourceTree = "<group>";
+		};
+		4438B6A67FC23E1398748155ABBAF5C7 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				63FF57DD0FCCDB39161B23352100FA7F /* CouponViewController.swift */,
+				9F0A323BE5BF8D49DBDFA18557B25895 /* View */,
+			);
+			name = Coupon;
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		520408ECA4686B22F2A227AD5A53A720 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2953D859481FC254C86D5312F7095E0C /* Extensions.swift */,
+				8A8A7B46C7EFB4E2A0F0EAE6B92EFF0F /* Strings.swift */,
+			);
+			name = Utilities;
+			path = UBCoupon/Classes/Utilities;
+			sourceTree = "<group>";
+		};
+		8125A4B5B02B963A889C0D904ED6BDA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A30CED1CA9041272DB80F8D4F3E57891 /* InviteViewModel.swift */,
+			);
+			name = ViewModel;
+			path = UBCoupon/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		8240720D2F0C103F99C7B94CC4AAA1E2 /* Pods-UBCoupon_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B3C038506389A6F9937081B565F41D81 /* Pods-UBCoupon_Example.modulemap */,
+				9203973D83B7722F18085813785D7C6A /* Pods-UBCoupon_Example-acknowledgements.markdown */,
+				0FB78F64CA18C5FC9FBBDFD2451AFFD0 /* Pods-UBCoupon_Example-acknowledgements.plist */,
+				3AE66BB68D173CB7E65EEF6C2E620C8A /* Pods-UBCoupon_Example-dummy.m */,
+				2E59CF79E03D510ED068F42CD9A02840 /* Pods-UBCoupon_Example-Info.plist */,
+				2B217C82ECFED63C8BC574ABA798525C /* Pods-UBCoupon_Example-resources.sh */,
+				CA3E96E02EF708A2013196080AF52CF6 /* Pods-UBCoupon_Example-umbrella.h */,
+				487934FF90AC622D62994FB53C0CEAC8 /* Pods-UBCoupon_Example.debug.xcconfig */,
+				CD9768B2C834EE5C77EE5737980338EF /* Pods-UBCoupon_Example.release.xcconfig */,
+			);
+			name = "Pods-UBCoupon_Example";
+			path = "Target Support Files/Pods-UBCoupon_Example";
+			sourceTree = "<group>";
+		};
+		8BAD131A15BE9960D841E0E2953B0B90 /* UBCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				C5C53068769947E69511DF3E496CB5E4 /* Pod */,
+				12130BBE87FFF0806B3CE82FBB1AC9D6 /* Resources */,
+				390EA1044C83EBA3EDE88C5B8FCF1EF4 /* Settings */,
+				29D8CE3DEECB5FDBF67B9D6FA6D95D22 /* Support Files */,
+				520408ECA4686B22F2A227AD5A53A720 /* Utilities */,
+				AD283B61D3503E0141EB9D42E522C7BA /* ViewController */,
+				8125A4B5B02B963A889C0D904ED6BDA7 /* ViewModel */,
+			);
+			name = UBCoupon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		97B92EEBCF1BB4C6D04D719022E8787D /* Pods-UBCoupon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B9EDB813464DBE65EAE98CF0D4124C9 /* Pods-UBCoupon_Tests.modulemap */,
+				69B8A8F0916052E596196C6E50660EF9 /* Pods-UBCoupon_Tests-acknowledgements.markdown */,
+				03067D1A1652BAB10A1BC34BB2C22323 /* Pods-UBCoupon_Tests-acknowledgements.plist */,
+				14B58814F0E5958450BC748A18B77367 /* Pods-UBCoupon_Tests-dummy.m */,
+				E20E99783E4326F1F4C44C0E881DC596 /* Pods-UBCoupon_Tests-Info.plist */,
+				80B944A6D1D84A70B8E71F2687BA1B18 /* Pods-UBCoupon_Tests-umbrella.h */,
+				139D8EA12A29910735430754C45A4C15 /* Pods-UBCoupon_Tests.debug.xcconfig */,
+				2D5BD4697882EF48B66170A52CB08D04 /* Pods-UBCoupon_Tests.release.xcconfig */,
+			);
+			name = "Pods-UBCoupon_Tests";
+			path = "Target Support Files/Pods-UBCoupon_Tests";
+			sourceTree = "<group>";
+		};
+		9F0A323BE5BF8D49DBDFA18557B25895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				488876BE3A0A4A505ACE039E2AE3BB89 /* CouponFirstCell.swift */,
+				5A73A8EBC96517F18EF1B222803BAC70 /* CouponView.swift */,
+				9C84A606E54A11535230DA8199B85E30 /* InviteCell.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD283B61D3503E0141EB9D42E522C7BA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4438B6A67FC23E1398748155ABBAF5C7 /* Coupon */,
+			);
+			name = ViewController;
+			path = UBCoupon/Classes/ViewController;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5C53068769947E69511DF3E496CB5E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				98D08E5B7781F7A5484FFDE4E0B21C46 /* LICENSE */,
+				1F59D2A9FEA9A179BBC99771A99554BD /* README.md */,
+				D7B20E3B3937616343A6117BC345FD7F /* UBCoupon.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CB7B8B466026816101ECC7A8994D094A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8240720D2F0C103F99C7B94CC4AAA1E2 /* Pods-UBCoupon_Example */,
+				97B92EEBCF1BB4C6D04D719022E8787D /* Pods-UBCoupon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0F801ED47A1CFF569FDD6B722C93F591 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1510E1B50C29FE503940B9AAF4BBA2AA /* Products */,
+				CB7B8B466026816101ECC7A8994D094A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10DC175CC98D52CBAD6B78EE942ED847 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24611ED619D3AA0F1A606E0DDCEEA62F /* Pods-UBCoupon_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5570589A5403A25AA5964906B0FDAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057E67BE0ECFBF3406DE3BA60C20E73B /* Pods-UBCoupon_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D79451A6D20B1C07384F4181AE2D98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529F47D26DC0568E1CD91250BF71714F /* UBCoupon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69D561CB13CE4AA76ABFFD2AB7A9C322 /* Pods-UBCoupon_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA277F9292759FAFE0CECE5B277BD1C2 /* Build configuration list for PBXNativeTarget "Pods-UBCoupon_Example" */;
+			buildPhases = (
+				10DC175CC98D52CBAD6B78EE942ED847 /* Headers */,
+				BE4A9B9471B8222FFCEFD00570F4290E /* Sources */,
+				B4B014D7B3B32D058172C5CB7BE14294 /* Frameworks */,
+				307E149E50B3B1B9FA5619BE9B28A035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C488B5932E394684E86740FF32234A /* PBXTargetDependency */,
+			);
+			name = "Pods-UBCoupon_Example";
+			productName = "Pods-UBCoupon_Example";
+			productReference = 07186F942E7CEFED8F10F44AE02FB6EC /* Pods_UBCoupon_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D796C5AAF575CE0BD4F461EEEA7236C /* Pods-UBCoupon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F44600BC0FF2994A4922DE59CFD172 /* Build configuration list for PBXNativeTarget "Pods-UBCoupon_Tests" */;
+			buildPhases = (
+				1D5570589A5403A25AA5964906B0FDAE /* Headers */,
+				F22186EE6C176D5E1F1205760FC63251 /* Sources */,
+				7D3B6D3C4933858B06A56583521ACAD0 /* Frameworks */,
+				DFAA2224A1FEC80D41FEC0697E8DC6EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71650FC744275B4CE745B66BB440C00C /* PBXTargetDependency */,
+			);
+			name = "Pods-UBCoupon_Tests";
+			productName = "Pods-UBCoupon_Tests";
+			productReference = 9EBDF733A7490B61F90AFD40A1C272AC /* Pods_UBCoupon_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84A95184D0962D4B216E5880407FF9BD /* UBCoupon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4765EC8A4A78686ACF6288783822DB18 /* Build configuration list for PBXNativeTarget "UBCoupon" */;
+			buildPhases = (
+				39D79451A6D20B1C07384F4181AE2D98 /* Headers */,
+				0A274871D8C648195941C25C500023EA /* Sources */,
+				91483B76DC9A8523F5F4A74CEA93935F /* Frameworks */,
+				1E628737AD8788612ABA4DCC0FF10ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F7D82CB66C14B61297EEF790EC4071 /* PBXTargetDependency */,
+			);
+			name = UBCoupon;
+			productName = UBCoupon;
+			productReference = EC88F948EE57CF56ED16F08D4DDA364B /* UBCoupon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E19A382DD6BBA000613F87188DDD63EA /* UBCoupon-UBCoupon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04336503B03F1023EA5EF5AAFECA6848 /* Build configuration list for PBXNativeTarget "UBCoupon-UBCoupon" */;
+			buildPhases = (
+				EC9AC16D060247F2E380633B9D629AFE /* Sources */,
+				F5DAE0E2D729247E26368CB238E74D2E /* Frameworks */,
+				4C7503919A584C5D9CD707BA26F0D8F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UBCoupon-UBCoupon";
+			productName = "UBCoupon-UBCoupon";
+			productReference = 74B24D2E153FB5F3B38C93EF4A55C2B7 /* UBCoupon.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1510E1B50C29FE503940B9AAF4BBA2AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D561CB13CE4AA76ABFFD2AB7A9C322 /* Pods-UBCoupon_Example */,
+				6D796C5AAF575CE0BD4F461EEEA7236C /* Pods-UBCoupon_Tests */,
+				84A95184D0962D4B216E5880407FF9BD /* UBCoupon */,
+				E19A382DD6BBA000613F87188DDD63EA /* UBCoupon-UBCoupon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E628737AD8788612ABA4DCC0FF10ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307E149E50B3B1B9FA5619BE9B28A035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7503919A584C5D9CD707BA26F0D8F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A38E23082EE4B04F9A22DBEFB624878 /* edit.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAA2224A1FEC80D41FEC0697E8DC6EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A274871D8C648195941C25C500023EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0040E022523BA2A7BF0609038A353278 /* CouponFirstCell.swift in Sources */,
+				EF6334A96803D5226D23DCA7FAF07D7D /* CouponSettings.swift in Sources */,
+				D76784AA543354B23669D3E9267DAA85 /* CouponView.swift in Sources */,
+				B1FE27C550D24EDA99BECA2D18E91E44 /* CouponViewController.swift in Sources */,
+				A9D9B8B866534E1D9C2952B041A7322F /* Extensions.swift in Sources */,
+				926A6BBCF9292681D995D274BB3421CD /* InviteCell.swift in Sources */,
+				D238FF1BC6ABA250005296F7B0BA0886 /* InvitesSettings.swift in Sources */,
+				C9AC859C36E41B38ED09097FE19B60A5 /* InviteViewModel.swift in Sources */,
+				F00878DF3A27BBAB872FBB1337D7FADD /* Strings.swift in Sources */,
+				B85EC3EEC8A23197B53DA50C665A2001 /* UBCoupon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE4A9B9471B8222FFCEFD00570F4290E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E96E203FDD6FFC188FDFC43BABB872A /* Pods-UBCoupon_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9AC16D060247F2E380633B9D629AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22186EE6C176D5E1F1205760FC63251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CA0425A66ECBA335E48FFE59828693 /* Pods-UBCoupon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71650FC744275B4CE745B66BB440C00C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UBCoupon_Example";
+			target = 69D561CB13CE4AA76ABFFD2AB7A9C322 /* Pods-UBCoupon_Example */;
+			targetProxy = AC52AAAA85AC763117D4895CBF5DB0EE /* PBXContainerItemProxy */;
+		};
+		82F7D82CB66C14B61297EEF790EC4071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UBCoupon-UBCoupon";
+			target = E19A382DD6BBA000613F87188DDD63EA /* UBCoupon-UBCoupon */;
+			targetProxy = A6D8EA4265C0FC51D647876A7264878A /* PBXContainerItemProxy */;
+		};
+		90C488B5932E394684E86740FF32234A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UBCoupon;
+			target = 84A95184D0962D4B216E5880407FF9BD /* UBCoupon */;
+			targetProxy = 04FB99C7674C9FB9C208473F6659A460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2D6089B1AAE877F9830B0EBDC025D749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487934FF90AC622D62994FB53C0CEAC8 /* Pods-UBCoupon_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBCoupon_Example/Pods-UBCoupon_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBCoupon_Example/Pods-UBCoupon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32A9F8B9BD154C5AC6370C5EEF7AD76A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EB109482CCB99927C22D9C7CBD348D /* UBCoupon.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBCoupon/UBCoupon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBCoupon/UBCoupon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UBCoupon/UBCoupon.modulemap";
+				PRODUCT_MODULE_NAME = UBCoupon;
+				PRODUCT_NAME = UBCoupon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53A2C3965CF4F706659FD9729EC57495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9768B2C834EE5C77EE5737980338EF /* Pods-UBCoupon_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBCoupon_Example/Pods-UBCoupon_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBCoupon_Example/Pods-UBCoupon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A0299C6CEFD055E2B35EA646A96E6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EB109482CCB99927C22D9C7CBD348D /* UBCoupon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBCoupon";
+				INFOPLIST_FILE = "Target Support Files/UBCoupon/ResourceBundle-UBCoupon-UBCoupon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = UBCoupon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD509F678B8470AE90E545E2A2B208A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5BD4697882EF48B66170A52CB08D04 /* Pods-UBCoupon_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBCoupon_Tests/Pods-UBCoupon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBCoupon_Tests/Pods-UBCoupon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5B66432D5A114A51C0708E3E22E46A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139D8EA12A29910735430754C45A4C15 /* Pods-UBCoupon_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBCoupon_Tests/Pods-UBCoupon_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBCoupon_Tests/Pods-UBCoupon_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0986F3355D69F268B4C9701B9445C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EB109482CCB99927C22D9C7CBD348D /* UBCoupon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBCoupon";
+				INFOPLIST_FILE = "Target Support Files/UBCoupon/ResourceBundle-UBCoupon-UBCoupon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = UBCoupon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F686B73114D4146655C51709513654A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EB109482CCB99927C22D9C7CBD348D /* UBCoupon.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBCoupon/UBCoupon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBCoupon/UBCoupon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UBCoupon/UBCoupon.modulemap";
+				PRODUCT_MODULE_NAME = UBCoupon;
+				PRODUCT_NAME = UBCoupon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04336503B03F1023EA5EF5AAFECA6848 /* Build configuration list for PBXNativeTarget "UBCoupon-UBCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0299C6CEFD055E2B35EA646A96E6F7 /* Debug */,
+				F0986F3355D69F268B4C9701B9445C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4765EC8A4A78686ACF6288783822DB18 /* Build configuration list for PBXNativeTarget "UBCoupon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F686B73114D4146655C51709513654A3 /* Debug */,
+				32A9F8B9BD154C5AC6370C5EEF7AD76A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F44600BC0FF2994A4922DE59CFD172 /* Build configuration list for PBXNativeTarget "Pods-UBCoupon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B66432D5A114A51C0708E3E22E46A8 /* Debug */,
+				DD509F678B8470AE90E545E2A2B208A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA277F9292759FAFE0CECE5B277BD1C2 /* Build configuration list for PBXNativeTarget "Pods-UBCoupon_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6089B1AAE877F9830B0EBDC025D749 /* Debug */,
+				53A2C3965CF4F706659FD9729EC57495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

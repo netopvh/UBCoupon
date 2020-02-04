@@ -1,0 +1,16 @@
+PODS:
+  - UBCoupon (1.0.0)
+
+DEPENDENCIES:
+  - UBCoupon (from `../`)
+
+EXTERNAL SOURCES:
+  UBCoupon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UBCoupon: 40fb25c7ba369c04ad11476e5a50528539c2cc8b
+
+PODFILE CHECKSUM: 3df27e1147d1cb45c34d7c8b53a22d5ff74d5fb7
+
+COCOAPODS: 1.7.4

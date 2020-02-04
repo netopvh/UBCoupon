@@ -1,0 +1,6 @@
+framework module UBCoupon {
+  umbrella header "UBCoupon-umbrella.h"
+
+  export *
+  module * { export * }
+}

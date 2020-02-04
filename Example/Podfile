@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UBCoupon_Example' do
+  pod 'UBCoupon', :path => '../'
+
+  target 'UBCoupon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
